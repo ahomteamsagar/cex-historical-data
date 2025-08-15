@@ -15,7 +15,9 @@ class BybitTimeframeResampler:
             '4h': '4H',
             '6h': '6H', 
             '12h': '12H',
-            '1d': '1D'
+            '1d': '1D',
+            '1M': '1M',      # 1 Month
+            '1Y_monthly': 'M'  # Yearly data as monthly aggregation (12 rows)
         }
         
         # OHLCV aggregation rules
